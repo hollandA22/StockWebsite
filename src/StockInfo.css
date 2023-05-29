@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+.input-section {
+    margin-right: 20px;
+}
+  
+.stock-list {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+  
+.stock-item {
+    margin-bottom: 10px;
+}
